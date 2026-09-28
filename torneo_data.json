@@ -1,0 +1,418 @@
+{
+  "equipos": [
+    {
+      "id": "t_torrubia",
+      "name": "Torrubia FS"
+    },
+    {
+      "id": "t_charcu",
+      "name": "Charcutería AhorraChan"
+    },
+    {
+      "id": "t_mascotas",
+      "name": "Mascotas Loli Prime"
+    },
+    {
+      "id": "t_parla",
+      "name": "Parla Futsal"
+    },
+    {
+      "id": "t_lenas",
+      "name": "Leñas Zarco"
+    },
+    {
+      "id": "t_mesa",
+      "name": "Mesa de Ocaña"
+    },
+    {
+      "id": "t_latinos",
+      "name": "Latinos FC"
+    },
+    {
+      "id": "t_cantera",
+      "name": "La Cantera CF"
+    },
+    {
+      "id": "t_quecomemos",
+      "name": "Que Comemos Hoy"
+    },
+    {
+      "id": "t_fontkorea",
+      "name": "Fontkorea FS"
+    },
+    {
+      "id": "t_toner",
+      "name": "Toner Paco FS"
+    },
+    {
+      "id": "t_cars",
+      "name": "Cars Los Nazarios"
+    }
+  ],
+  "grupos": [
+    {
+      "id": "g_a",
+      "name": "Grupo A",
+      "teamIds": [
+        "t_torrubia",
+        "t_charcu",
+        "t_mascotas"
+      ]
+    },
+    {
+      "id": "g_b",
+      "name": "Grupo B",
+      "teamIds": [
+        "t_toner",
+        "t_fontkorea",
+        "t_cars"
+      ]
+    },
+    {
+      "id": "g_c",
+      "name": "Grupo C",
+      "teamIds": [
+        "t_lenas",
+        "t_parla",
+        "t_mesa"
+      ]
+    },
+    {
+      "id": "g_d",
+      "name": "Grupo D",
+      "teamIds": [
+        "t_latinos",
+        "t_cantera",
+        "t_quecomemos"
+      ]
+    }
+  ],
+  "partidos": [
+    {
+      "id": "m_a1",
+      "groupId": "g_a",
+      "groupIndex": 0,
+      "matchIndex": 0,
+      "local": "t_torrubia",
+      "visitante": "t_charcu",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Viernes",
+      "hora": "21:00"
+    },
+    {
+      "id": "m_a2",
+      "groupId": "g_a",
+      "groupIndex": 0,
+      "matchIndex": 1,
+      "local": "t_torrubia",
+      "visitante": "t_mascotas",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Sábado",
+      "hora": "01:00"
+    },
+    {
+      "id": "m_a3",
+      "groupId": "g_a",
+      "groupIndex": 0,
+      "matchIndex": 2,
+      "local": "t_charcu",
+      "visitante": "t_mascotas",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Sábado",
+      "hora": "05:00"
+    },
+    {
+      "id": "m_b1",
+      "groupId": "g_b",
+      "groupIndex": 1,
+      "matchIndex": 0,
+      "local": "t_toner",
+      "visitante": "t_fontkorea",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Viernes",
+      "hora": "22:00"
+    },
+    {
+      "id": "m_b2",
+      "groupId": "g_b",
+      "groupIndex": 1,
+      "matchIndex": 1,
+      "local": "t_toner",
+      "visitante": "t_cars",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Sábado",
+      "hora": "02:00"
+    },
+    {
+      "id": "m_b3",
+      "groupId": "g_b",
+      "groupIndex": 1,
+      "matchIndex": 2,
+      "local": "t_fontkorea",
+      "visitante": "t_cars",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Sábado",
+      "hora": "06:00"
+    },
+    {
+      "id": "m_c1",
+      "groupId": "g_c",
+      "groupIndex": 2,
+      "matchIndex": 0,
+      "local": "t_lenas",
+      "visitante": "t_parla",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Viernes",
+      "hora": "23:00"
+    },
+    {
+      "id": "m_c2",
+      "groupId": "g_c",
+      "groupIndex": 2,
+      "matchIndex": 1,
+      "local": "t_lenas",
+      "visitante": "t_mesa",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Sábado",
+      "hora": "03:00"
+    },
+    {
+      "id": "m_c3",
+      "groupId": "g_c",
+      "groupIndex": 2,
+      "matchIndex": 2,
+      "local": "t_parla",
+      "visitante": "t_mesa",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Sábado",
+      "hora": "07:00"
+    },
+    {
+      "id": "m_d1",
+      "groupId": "g_d",
+      "groupIndex": 3,
+      "matchIndex": 0,
+      "local": "t_latinos",
+      "visitante": "t_cantera",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Sábado",
+      "hora": "00:00"
+    },
+    {
+      "id": "m_d2",
+      "groupId": "g_d",
+      "groupIndex": 3,
+      "matchIndex": 1,
+      "local": "t_latinos",
+      "visitante": "t_quecomemos",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Sábado",
+      "hora": "04:00"
+    },
+    {
+      "id": "m_d3",
+      "groupId": "g_d",
+      "groupIndex": 3,
+      "matchIndex": 2,
+      "local": "t_cantera",
+      "visitante": "t_quecomemos",
+      "golesLocal": "",
+      "golesVisitante": "",
+      "dia": "Sábado",
+      "hora": "08:00"
+    }
+  ],
+  "eliminatorias": [
+    [
+      {
+        "id": "ko_qf1",
+        "local": "",
+        "visitante": "",
+        "golesLocal": "",
+        "golesVisitante": "",
+        "penLocal": "",
+        "penVisitante": "",
+        "winner": "",
+        "dia": "Sábado",
+        "hora": "09:00",
+        "seedLocal": {
+          "group": "g_a",
+          "pos": 1
+        },
+        "seedVisitante": {
+          "group": "g_b",
+          "pos": 2
+        }
+      },
+      {
+        "id": "ko_qf2",
+        "local": "",
+        "visitante": "",
+        "golesLocal": "",
+        "golesVisitante": "",
+        "penLocal": "",
+        "penVisitante": "",
+        "winner": "",
+        "dia": "Sábado",
+        "hora": "10:00",
+        "seedLocal": {
+          "group": "g_c",
+          "pos": 1
+        },
+        "seedVisitante": {
+          "group": "g_d",
+          "pos": 2
+        }
+      },
+      {
+        "id": "ko_qf3",
+        "local": "",
+        "visitante": "",
+        "golesLocal": "",
+        "golesVisitante": "",
+        "penLocal": "",
+        "penVisitante": "",
+        "winner": "",
+        "dia": "Sábado",
+        "hora": "11:00",
+        "seedLocal": {
+          "group": "g_b",
+          "pos": 1
+        },
+        "seedVisitante": {
+          "group": "g_a",
+          "pos": 2
+        }
+      },
+      {
+        "id": "ko_qf4",
+        "local": "",
+        "visitante": "",
+        "golesLocal": "",
+        "golesVisitante": "",
+        "penLocal": "",
+        "penVisitante": "",
+        "winner": "",
+        "dia": "Sábado",
+        "hora": "12:00",
+        "seedLocal": {
+          "group": "g_d",
+          "pos": 1
+        },
+        "seedVisitante": {
+          "group": "g_c",
+          "pos": 2
+        }
+      }
+    ],
+    [
+      {
+        "id": "ko_sf1",
+        "local": "",
+        "visitante": "",
+        "golesLocal": "",
+        "golesVisitante": "",
+        "penLocal": "",
+        "penVisitante": "",
+        "winner": "",
+        "dia": "Sábado",
+        "hora": "19:00"
+      },
+      {
+        "id": "ko_sf2",
+        "local": "",
+        "visitante": "",
+        "golesLocal": "",
+        "golesVisitante": "",
+        "penLocal": "",
+        "penVisitante": "",
+        "winner": "",
+        "dia": "Sábado",
+        "hora": "20:00"
+      }
+    ],
+    [
+      {
+        "id": "ko_final",
+        "local": "",
+        "visitante": "",
+        "golesLocal": "",
+        "golesVisitante": "",
+        "penLocal": "",
+        "penVisitante": "",
+        "winner": "",
+        "dia": "Sábado",
+        "hora": "21:30"
+      }
+    ]
+  ],
+  "reglas": [
+    "Las reglas de juego serán las de la LNFS.",
+    "El número máximo de jugadores será de 14. En el banquillo solo podrá haber jugadores suplentes y entrenador.",
+    "La lista de jugadores no podrá ser modificada una vez comience el torneo.",
+    "Todos los jugadores deberán disponer del DNI durante todo el maratón. La organización podrá pedir el DNI en cualquier momento durante el maratón.",
+    "La duración de los partidos será de 20 minutos cada parte a tiempo corrido y los dos últimos minutos de la segunda parte a tiempo parado.",
+    "El descanso será de 3 minutos y cada equipo dispondrá de un tiempo muerto en cada parte. El tiempo muerto será de un minuto.",
+    "El calentamiento será de 6 minutos entre partido y partido. Se recomienda que los equipos que disputen el siguiente encuentro estén preparados para comenzar el calentamiento nada más finalizar el partido anterior.",
+    "La fase de tercer y cuarto puesto no se disputará. El tercer clasificado se conocerá mediante los siguientes criterios: 1º más goles marcados en semifinales, 2º menos goles encajados en semifinales. Si sigue habiendo empate se llevará a cabo el mismo criterio, pero contando todos los partidos de la competición.",
+    "Desempate en fase de grupos: en caso de empate a puntos entre dos equipos, se mirará primero el enfrentamiento directo entre ambos. Si el enfrentamiento directo acabó en empate, o si empatan tres equipos a puntos, se aplicarán estos criterios: 1º diferencia de goles general, 2º mayor número de goles a favor, 3º menor número de goles en contra, 4º sorteo.",
+    "Empate en fase eliminatoria: en caso de empate al término del tiempo reglamentario en la fase eliminatoria, se jugará una prórroga de 3 minutos, en un único tiempo y a tiempo parado. Si el empate continúa, se disputará una tanda de penaltis de 3 lanzamientos por equipo.",
+    "El jugador que reciba una tarjeta roja directa acumulará un partido de sanción.",
+    "En caso de agresiones, ya sea a un contrario o a los árbitros, se castigará con la expulsión del jugador para todo el torneo.",
+    "En caso de producirse algún incidente, y los equipos implicados no pongan los medios para frenarlo, si llegara a producirse una pelea masiva, ambos equipos serán expulsados del torneo, y su puesto lo ocupará el equipo eliminado en esa misma ronda con mejor coeficiente.",
+    "Las personas encargadas de estar en la mesa de cronometraje únicamente se encargarán de recoger la información que le solicite el árbitro. En ningún caso tomarán decisiones que afecten al juego.",
+    "Todos los equipos deben acudir correctamente uniformados, con el mismo color de camiseta. A cada equipo se le proporcionarán 2 balones para calentar. Antes del comienzo de cada partido se tienen que devolver.",
+    "En caso de que haya equipos con el mismo color de equipación, tendrá que ponerse peto el equipo visitante.",
+    "La Organización no se responsabiliza de las posibles lesiones que se produzcan durante la competición.",
+    "La Organización se reserva el derecho de decisión sobre cualquier problema que surja, y a introducir o modificar cualquier norma, previo aviso a todos los equipos.",
+    "Se pide a los equipos que dejen los vestuarios en buenas condiciones tras su uso, y que no dejen ningún objeto personal en los mismos durante su partido. La Organización no se hace responsable de pérdidas o hurtos.",
+    "Cualquier equipo que no se presente a algún partido quedará descalificado automáticamente en la fase de grupos. El partido tendrá un resultado de 3-0."
+  ],
+  "config": {
+    "groupCount": 4,
+    "teamsPerGroup": 3,
+    "directQualified": 2,
+    "extraQualified": 0
+  },
+  "manual": {
+    "forcedQualified": [],
+    "forcedExcluded": [],
+    "tieOrder": {
+      "g_a": [
+        "t_torrubia",
+        "t_charcu",
+        "t_mascotas"
+      ],
+      "g_b": [
+        "t_toner",
+        "t_fontkorea",
+        "t_cars"
+      ],
+      "g_c": [
+        "t_lenas",
+        "t_parla",
+        "t_mesa"
+      ],
+      "g_d": [
+        "t_latinos",
+        "t_cantera",
+        "t_quecomemos"
+      ]
+    }
+  },
+  "ultimaActualizacion": "",
+  "header": {
+    "title": "I Maratón de Fútbol Sala Fuente de Pedro Naharro"
+  }
+}
